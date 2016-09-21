@@ -30,10 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/cnd:system/bin/cnd \
     vendor/wingtech/wt88047/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/wingtech/wt88047/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/wingtech/wt88047/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/wingtech/wt88047/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/wingtech/wt88047/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/wingtech/wt88047/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/wingtech/wt88047/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wingtech/wt88047/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/wingtech/wt88047/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -162,20 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -243,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -267,7 +248,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -286,7 +266,6 @@ PRODUCT_PACKAGES += \
     libmm-abl \
     libqct_resampler \
     libtime_genoff \
-    ims \
     shutdownlistener \
     TimeService \
     CNEService \
@@ -296,7 +275,6 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     com.quicinc.cne \
     dpmapi \
-    imscmlibrary \
     qcnvitems \
     qcrilhook
 endif

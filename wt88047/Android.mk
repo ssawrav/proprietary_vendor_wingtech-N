@@ -74,16 +74,6 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ims
-LOCAL_MODULE_OWNER := wingtech
-LOCAL_SRC_FILES := proprietary/app/ims/ims.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_OWNER := wingtech
 LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk
@@ -167,15 +157,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := dpmapi
 LOCAL_MODULE_OWNER := wingtech
 LOCAL_SRC_FILES := proprietary/framework/dpmapi.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := imscmlibrary
-LOCAL_MODULE_OWNER := wingtech
-LOCAL_SRC_FILES := proprietary/framework/imscmlibrary.jar
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
