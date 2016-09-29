@@ -149,15 +149,12 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/wingtech/wt88047/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/wingtech/wt88047/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
