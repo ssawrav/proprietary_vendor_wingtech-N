@@ -240,7 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -272,4 +271,3 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 endif
-
