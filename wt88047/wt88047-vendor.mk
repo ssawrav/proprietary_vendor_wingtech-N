@@ -27,8 +27,6 @@ ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/wingtech/wt88047/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/wingtech/wt88047/proprietary/bin/cnd:system/bin/cnd \
-    vendor/wingtech/wt88047/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/wingtech/wt88047/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/wingtech/wt88047/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wingtech/wt88047/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -43,23 +41,14 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/wingtech/wt88047/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/wingtech/wt88047/proprietary/bin/vm_bms:system/bin/vm_bms \
-    vendor/wingtech/wt88047/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/wingtech/wt88047/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/wingtech/wt88047/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/wingtech/wt88047/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/wingtech/wt88047/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/wingtech/wt88047/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/wingtech/wt88047/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/wingtech/wt88047/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/wingtech/wt88047/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/wingtech/wt88047/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/wingtech/wt88047/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/wingtech/wt88047/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/wingtech/wt88047/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/wingtech/wt88047/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/wingtech/wt88047/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/wingtech/wt88047/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/wingtech/wt88047/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/wingtech/wt88047/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/wingtech/wt88047/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/wingtech/wt88047/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -132,19 +121,11 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov8865_sunny_preview.so:system/vendor/lib/libchromatix_ov8865_sunny_preview.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov8865_sunny_snapshot.so:system/vendor/lib/libchromatix_ov8865_sunny_snapshot.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -166,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     vendor/wingtech/wt88047/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -201,7 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -239,9 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -261,13 +237,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     shutdownlistener \
     TimeService \
-    CNEService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
-    cneapiclient \
-    com.qti.dpmframework \
-    com.quicinc.cne \
-    dpmapi \
     qcnvitems \
     qcrilhook
 endif
